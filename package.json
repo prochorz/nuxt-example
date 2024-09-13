@@ -10,8 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@aws-amplify/ui-vue": "^4.2.13",
+    "@primevue/themes": "^4.0.7",
+    "aws-amplify": "^6.6.0",
     "nuxt": "^3.13.0",
+    "primevue": "^4.0.7",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@primevue/nuxt-module": "^4.0.7"
   }
 }
